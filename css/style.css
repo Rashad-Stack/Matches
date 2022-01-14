@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;0,700;0,900;1,100&display=swap');
+.fixed-top {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: #d8e2dc;
+}
+
+body {
+  font-family: Montserrat;
+  background-color: #febd59;
+  font-size: 0.85rem;
+}
+.clip-path {
+  position: absolute;
+  height: 100vh;
+  width: 55%;
+  clip-path: polygon(0% 0%, 70% 0, 90% 51%, 70% 100%, 0% 100%);
+  background-color: #e0e0e0;
+  z-index: -999;
+}
+.clip-path-mobile {
+  position: absolute;
+  background-color: #e0e0e0;
+  height: 60vh;
+  width: 100%;
+  clip-path: polygon(0% 0%, 100% 0, 100% 50%, 50% 80%, 0 50%);
+  z-index: -999;
+}
+
+.bttn {
+  padding: 8px 60px;
+  font-size: 11px;
+  text-align: center;
+  border: none;
+  outline: none;
+  font-weight: 800;
+  box-shadow: 1px 1px 2px 0px #00000080;
+}
+
+.bttn-green {
+  background-color: #7ed957;
+}
+.fw-custom {
+  font-weight: 600;
+  font-size: 0.7rem;
+}
+.object-fit {
+  object-fit: cover;
+}
+.h1-letter-spacing {
+  letter-spacing: -5px;
+}
+.p-letter-spacing {
+  letter-spacing: -1.5px;
+}
+.card-bg {
+  background-color: #ffffff;
+}
+.card-shadow {
+  box-shadow: 0px 0px 9px 2px #00000094;
+}
+.card-band {
+  width: 160px;
+  position: absolute;
+  top: -28px;
+  left: -28px;
+}
+
+.fw-900 {
+  font-weight: 900 !important;
+}
+nav {
+  background: transparent;
+}
+
+@media all and (min-width: 992px) {
+  nav .container {
+    max-width: 1300px;
+  }
+}
+
+.match .myrow {
+  margin-right: calc(var(--bs-gutter-x) / -50);
+}
+
+nav ul li a {
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  opacity: 0.8;
+}
+
+nav .nav-item {
+  padding-left: 25px !important;
+  cursor: pointer;
+}
+
+.pchide {
+  display: none;
+}
+
+@media only screen and (max-width: 667px) {
+  .navbar-brand {
+    margin-right: 14rem;
+    margin-top: -40px;
+    margin-left: 50px;
+  }
+
+  .mobhide {
+    display: none;
+  }
+
+  .pchide {
+    display: inline !important;
+  }
+
+  .navbar-dark .navbar-toggler {
+    border-color: transparent !important;
+    color: transparent;
+  }
+
+  .margin9 {
+    margin-top: -9px;
+  }
+
+  .pos_center {
+    text-align: center !important;
+  }
+
+  #navbar_top {
+    background-color: #d8e2dc !important;
+  }
+  .display-sm-1 {
+    font-size: 1.5rem;
+    letter-spacing: -2px;
+    text-align: center;
+  }
+  .fs-sm-custom {
+    font-size: 0.8rem !important;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+  }
+  .card-body {
+    flex-wrap: nowrap;
+  }
+  .mt-sm-custom {
+    margin-top: 150px;
+  }
+}
+
+/********************************Match Section CSS************************* */
